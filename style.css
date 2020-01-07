@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+  margin: 7px 0 0 10px;
+  padding: 0;
+  overflow: hidden;
+  font-family: arial, sans-serif;
+  color: #000;
+  opacity: .75;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 13px;
+}
+li.left {
+  float: left;
+}
+li.right {
+  float: right;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 109px;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+input.buttons {
+  display: inline;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.searchbar {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 527px;
+  height: 34px;
+}
